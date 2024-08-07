@@ -19,3 +19,92 @@ input,
 button {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-50 dark:focus-visible:ring-neutral-600 dark:focus-visible:ring-offset-neutral-900;
 }
+
+body {
+  background-image: url("/zappy.jpg");
+  background-repeat: repeat;   
+  background-size: 300px; /* Set the size of each repeated image */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 14px;
+  color: #ff78d2;
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+  height: 100vh; /* Make the body take the full height of the viewport */
+  padding-top: 50px; /* Padding inside the container */
+  padding-bottom: 50px; /* Padding inside the container */
+  padding-left: 150px; /* Padding inside the container */
+  padding-right: 150px; /* Padding inside the container */
+  font-family: Times New Roman;
+}
+
+html {
+  cursor: url("/nat996.png") 30 30, pointer;
+}
+
+a {
+  cursor: url("/nat996.png") 30 30, pointer;
+  color: #ff78d2;
+}
+
+.container {
+  border: 5px solid #fdb2ff; /* Corrected border syntax */
+  background-color: white; /* Background color for the container */
+  max-width: 1200px; /* Maximum width of the container */
+  padding: 0;
+  width: 100%; /* Make the container responsive */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+nav {
+  width: 100%;
+  background-color: white; /* Background color for the nav */
+  padding:  0; /* Padding inside the nav */
+  text-align: center; /* Center the nav items */
+}
+
+nav a {
+  color: #fdb2ff; /* Text color for nav links */
+  padding: 0 15px; /* Padding around each link */
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.logo {
+  text-align: center; /* Center the logo/text */
+  margin-bottom: 10px; /* Space between logo and nav */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Three columns: side, center, side */
+}
+
+.column {
+  padding: 0px; 
+}
+
+.center-column {
+  background-color: #f0f0f0; /* Optional: Different background for the center column */
+}
+
+h3 {
+  margin-bottom: 0px; 
+}
+
+ul {
+  margin-top: 0px; 
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+ul li {
+  padding-left: 15px; 
+}
+ul li::before {
+  content: "♡";
+  margin-right: 5px;
+}

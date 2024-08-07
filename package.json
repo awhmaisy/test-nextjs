@@ -1,9 +1,5 @@
 {
   "private": true,
-  "engines": {
-    "node": ">=20",
-    "pnpm": ">=9"
-  },
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
