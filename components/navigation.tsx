@@ -16,7 +16,7 @@ export default function Navigation() {
         <a href="/declaration" className="nav-link">
           Declaration of Existence
         </a>
-        <a href="/shop" className="nav-link">
+        <a href="/search" className="nav-link">
           Shop
         </a>
         <a href="/understand" className="nav-link">

@@ -41,7 +41,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           <div className="boxy">
             <Navigation />
           </div>
-          <div className="grid">
+          <div className="grid grid-cols-1">
             <div className="column w-[220px] p-[10px]">
               <Link href="/">
                 <Image
@@ -71,26 +71,6 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
                     className="italic"
                   >
                     CLICK to be saved by Harmony
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://throne.com/awhmaisy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="italic"
-                  >
-                    CLICK to buy an angel
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitch.tv/awhmaisy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="whitespace-pre italic"
-                  >
-                    CLICK to watch angels
                   </a>
                 </li>
                 <li>More to come.. we're buried in paperwork for the time being &lt;3 </li>
@@ -134,13 +114,23 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
                     rel="noopener noreferrer"
                     className="italic"
                   >
-                    We love when you get hard
+                    Hard Anime Shirts
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://remilia.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="italic"
+                  >
+                    Remilia Conglomerate
                   </a>
                 </li>
               </ul>
             </div>
+            {children}
           </div>
-          {children}
         </div>
       </body>
     </html>
